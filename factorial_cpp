@@ -12,10 +12,15 @@ int Factorial(int a)
 return a;
 }
 // We make a loop so the factorial works
+
+
+
 int main() {
+   
     int result = Factorial(9);
-    cout << result << endl;
+    cout << "the factorial of " << 9 << " is " << result<< endl;
     return 0;
     
 }
+    
     
